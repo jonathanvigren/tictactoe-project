@@ -1,0 +1,17 @@
+<div class="container game-container">
+    <div class="row game-row">
+      <div class="col-md border-right border-bottom odd box1 r1 c1 d1 top-row" id="1" (click)="onAddPiece1()"><h4>{{ currentPiece1 }}</h4></div>
+      <div class="col-md border-bottom even box2 r1 c2 top-row" id="2" (click)="onAddPiece2()"><h4>{{ currentPiece2 }}</h4></div>
+      <div class="col-md border-left border-bottom odd box3 r1 c3 d2 top-row " id="3" (click)="onAddPiece3()"><h4>{{ currentPiece3 }}</h4></div>
+    </div>
+    <div class="row game-row">
+      <div class="col-md border-right even box4 r2 c1" id="4" (click)="onAddPiece4()"><h4>{{ currentPiece4 }}</h4></div>
+      <div class="col-md odd box5 r2 c2 d1 d2" id="5" (click)="onAddPiece5()"><h4>{{ currentPiece5 }}</h4></div>
+      <div class="col-md border-left even box6 r2 c3" id="6" (click)="onAddPiece6()"><h4>{{ currentPiece6 }}</h4></div>
+    </div>
+    <div class="row game-row">
+      <div class="col-md border-right border-top odd box7 r3 c1 d2" id="7" (click)="onAddPiece7()"><h4>{{ currentPiece7 }}</h4></div>
+      <div class="col-md border-top even box8 r3 c2" id="8" (click)="onAddPiece8()"><h4>{{ currentPiece8 }}</h4></div>
+      <div class="col-md border-left border-top odd box9 r3 c3 d1" id="9" (click)="onAddPiece9()"><h4>{{ currentPiece9 }}</h4></div>
+    </div>
+  </div>
